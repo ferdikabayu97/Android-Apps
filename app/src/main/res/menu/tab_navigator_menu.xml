@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_jk"
+        android:title="@string/jk"
+        android:icon="@drawable/ic_jk"/>
+    <item
+        android:id="@+id/menu_sk"
+        android:title="@string/Sk"
+        android:icon="@drawable/ic_sk"/>
+    <item
+        android:id="@+id/menu_pekerjaan"
+        android:title="@string/pekerjaan"
+        android:icon="@drawable/ic_pekerjaan"/>
+    <item
+        android:id="@+id/menu_pendidikan"
+        android:title="@string/pendidikan"
+        android:icon="@drawable/ic_pendidikan"/>
+    <item
+        android:id="@+id/menu_umur"
+        android:title="@string/umur"
+        android:icon="@drawable/ic_umur"/>
+
+</menu>

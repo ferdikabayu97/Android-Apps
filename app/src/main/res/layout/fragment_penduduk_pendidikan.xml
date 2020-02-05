@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="65dp"
+        android:elevation="10dp"
+        android:layout_marginBottom="75dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/bg_button_whiteprimary">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pendidikan"
+            android:gravity="center"
+            android:fontFamily="@font/rbold"
+            android:textSize="30dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="Belum Sekloah :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/bs"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="Belum Tamat SD"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/bts"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="Tamat SD :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/sd"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="SMP"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/smp"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="SMA :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/sma"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="D-I dan D-II :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/didii"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="D-III :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/diii"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="S1 :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/s1"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="S2 :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/s2"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:text="S3 :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:fontFamily="@font/rregular"
+                android:layout_height="wrap_content"
+                android:id="@+id/s3"
+                android:textAlignment="textEnd"
+                android:text="Add Text"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:paddingTop="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/rsemibold"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Penduduk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="23dp"
+            android:paddingTop="8dp"
+            android:fontFamily="@font/rregular"
+            android:id="@+id/jp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Add Text"/>
+
+
+
+    </LinearLayout>
+</FrameLayout>

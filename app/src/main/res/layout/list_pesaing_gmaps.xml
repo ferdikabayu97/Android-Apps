@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blueSecondary">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/rbold"
+                android:gravity="center"
+                android:text="Nama Toko"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="Nama Pemilik"
+                android:id="@+id/name"
+                android:textSize="20dp"
+                android:fontFamily="@font/rregular"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Alamat"
+                    android:fontFamily="@font/rbold"
+                    android:paddingLeft="10dp"
+                    android:textSize="13dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="alamat"
+                    android:id="@+id/vicinity"
+                    android:fontFamily=""
+                    android:paddingRight="10dp"
+                    android:gravity="right"
+
+                    android:textSize="13dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Status Toko"
+                    android:fontFamily="@font/rbold"
+                    android:paddingLeft="10dp"
+                    android:textSize="13dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="alamat"
+                    android:id="@+id/open_now"
+                    android:fontFamily=""
+                    android:paddingRight="10dp"
+                    android:gravity="right"
+
+                    android:textSize="13dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:paddingLeft="10dp"
+                    android:layout_height="match_parent"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/rbold"
+                    android:text="Rating"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:paddingRight="10dp"
+                    android:gravity="right"
+                    android:id="@+id/rating"
+                    android:fontFamily="@font/rregular"
+                    android:text="makro/mikro"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

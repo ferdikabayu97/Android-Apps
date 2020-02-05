@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="bluePrimary">#2196F3</color>
+    <color name="blueSecondary">#03A9F4</color>
+    <color name="white">#ffffff</color>
+    <color name="notsowhite">#f1f2f5</color>
+    <color name="notsowhitetoo">#f0f3ff</color>
+    <color name="borderbutton">#552B00</color>
+    <color name="blackPrimary">#21272c</color>
+    <color name="colorCheck">#ffffff</color>
+    <color name="colorUncheck">#B2D7D2</color>
+
+</resources>

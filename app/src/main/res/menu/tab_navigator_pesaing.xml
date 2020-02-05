@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_pesaing_menetap"
+        android:title="Pesaing Menetap"
+        android:icon="@drawable/ic_menetap"/>
+    <item
+        android:id="@+id/menu_pesaing_bergerak"
+        android:title="Pesaing Bergerak"
+        android:icon="@drawable/ic_bergerak"/>
+
+
+</menu>

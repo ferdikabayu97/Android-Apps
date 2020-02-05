@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="75dp"
+            android:background="@drawable/bg_button_whiteprimary"
+            android:elevation="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rbold"
+                android:gravity="center"
+                android:text="@string/pekerjaan"
+                android:textSize="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Tidak Bekerja :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/tb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Aparat Pejabat Negara :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/apn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Tenaga Pengajar :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/tp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Wiraswasta :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/w"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Pertanian :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/per"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Nelayan :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/nel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Bidang Keagamaan :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/bkea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Pelajar dan Mahasiswa :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/pdm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Tenaga Kesehatan :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/tk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Pensiunan :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/pensi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Lainnya :"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/lain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rregular"
+                    android:text="Add Text"
+                    android:textAlignment="textEnd"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:paddingTop="40dp"
+                android:text="Jumlah Penduduk"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/jp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rregular"
+                android:paddingTop="8dp"
+                android:text="Add Text"
+                android:textAlignment="center"
+                android:textSize="23dp" />
+
+
+        </LinearLayout>
+
+</FrameLayout>

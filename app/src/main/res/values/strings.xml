@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">REK USAHA</string>
+    <string name="main">Tentukan Koordinatmu atau cari koordinat secara otomatin dengan langsung menekan tombol dibawah</string>
+    <string name="username">ID Pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="confpassword">Konfirmasi Kata Sandi</string>
+    <string name="namabeltext">Nama Panjang</string>
+    <string name="emailtext">E-mail</string>
+    <string name="veritext">Verifikasi</string>
+    <string name="verikodetext">Masukan Kode Verifikasi dari Emailmu</string>
+    <string name="kirimtext">Kirim</string>
+    <string name="butmasuk">Masuk</string>
+    <string name="logintext">Masuk</string>
+
+    <string name="jk">Jenis Kelamin</string>
+    <string name="Sk">Status Kawin</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="pendidikan">Pendidikan</string>
+    <string name="umur">Umur</string>
+
+    <string name="lpasstext">Lupa Kata Sandi ?</string>
+    <string name="registext">Pembuatan Akun untuk menggunakan aplikasi dan lihat rekomendasi usaha di daerahmu!</string>
+    <string name="askregistext">Belum Punya Akun ?</string>
+    <string name="buatakuntext">Buat Akun</string>
+    <string name="lupapasstext">Temukan Akun Anda</string>
+    <string name="lupapassdestext">Masukan E-mail dan ID Pengguna anda untuk memulihkan akun</string>
+
+    <string name="buka_navigasi_drawer">Buka</string>
+    <string name="tutup_nafigasi_drawer">Tutup</string>
+
+
+    <string name="descApp">Rekomendasi Usaha Kuliner Sunda untuk warga Bandung</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_fragment">Map</string>
+</resources>
